@@ -3,9 +3,9 @@
     "private": true,
     "version": "1.0.0",
     "type": "module",
-    "engines" : {
-        "npm" : ">=9.0.0",
-        "node" : ">=18.0.0"
+    "engines": {
+        "npm": ">=9.0.0",
+        "node": ">=18.0.0"
     },
     "scripts": {
         "dev": "vite --port 3000",
@@ -15,15 +15,16 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "clsx": "^2.0.0",
+        "@types/node": "^20.14.9",
+        "clsx": "^2.1.1",
         "react": "^18.2.0",
         "react-countup": "^6.5.0",
         "react-dom": "^18.2.0",
         "react-fast-marquee": "^1.6.2"
     },
     "devDependencies": {
-        "@types/react": "^18.2.37",
-        "@types/react-dom": "^18.2.15",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
         "@typescript-eslint/eslint-plugin": "^6.13.1",
         "@vitejs/plugin-react": "^4.2.0",
         "autoprefixer": "^10.4.16",
@@ -39,6 +40,7 @@
         "postcss": "^8.4.31",
         "prettier": "^3.1.0",
         "tailwindcss": "^3.3.5",
+        "typescript": "^5.5.3",
         "vite": "^5.0.0"
     }
 }

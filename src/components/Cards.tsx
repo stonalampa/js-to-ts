@@ -1,6 +1,7 @@
+import Button from '@js-to-ts/components/Button.';
 import clsx from 'clsx';
 
-import { Button } from './Button.jsx';
+import { Button } from './Button.js';
 
 export const Cards = ({ cards }) => {
     return (

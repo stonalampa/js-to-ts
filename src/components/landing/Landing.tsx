@@ -1,9 +1,7 @@
+import Card from '@js-to-ts/components/landing/Card';
 import clsx from 'clsx';
 
-import { Card } from './Card.jsx';
-
-// eslint-disable-next-line no-undef
-const vscodeProjectLink = `vscode://file/${__CWD__}`;
+const vscodeProjectLink = `vscode://file/${process.cwd()}`;
 
 const cards = [
     {
